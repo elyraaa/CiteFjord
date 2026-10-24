@@ -1,0 +1,16 @@
+**/.venv
+.venv/
+**/__pycache__
+**/*.pyc
+chroma_db
+data
+work
+build
+*.spec
+dist/*.zip
+*.zip
+*.tar
+.git
+model_cache
+LocalRAG-Windows
+CiteFjord-Windows

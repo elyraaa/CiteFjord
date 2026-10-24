@@ -1,0 +1,12 @@
+# CiteFjord runtime dependencies.
+typer
+rich
+chromadb
+langchain
+langchain-community
+langchain-huggingface
+langchain-chroma
+langchain-text-splitters
+pymupdf
+sentence-transformers
+chardet

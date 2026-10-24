@@ -1,0 +1,6 @@
+# Distribution container only. The desktop application runs on the recipient's host.
+FROM alpine:3.20
+LABEL org.opencontainers.image.description="Transport package for the Windows CiteFjord desktop application"
+COPY dist/CiteFjord/ /delivery/CiteFjord/
+COPY README.md /delivery/README.md
+CMD ["sh", "-c", "echo 'Copy /delivery/CiteFjord to a Windows host with docker cp; run CiteFjord.exe on the host.'"]
